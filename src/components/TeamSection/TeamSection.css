@@ -1,0 +1,22 @@
+.team-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 34px;
+}
+
+.team-section h2 {
+   font-size: 32px;
+   font-weight: 400;
+   border-bottom: 4px solid;
+}
+
+.card-container {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+}

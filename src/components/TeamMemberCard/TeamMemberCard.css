@@ -1,0 +1,37 @@
+.card {
+   width: 280px;
+   border-radius: 10px;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.upper-container {
+   background-color: #f0f0f0;
+   text-align: center;
+   width: 100%;
+
+   border-radius: 10px 10px 0px 0px;
+}
+
+.upper-container img {
+   width: 100px;
+   border-radius: 50%;
+   position: relative;
+   bottom: -50px;
+}
+
+.bottom-container {
+   text-align: center;
+   height: 80%;
+   background-color: #f0f0f0;
+   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+   border-radius: 0 0 10px 10px;
+}
+
+.bottom-container h3 {
+   margin-top: 30%;
+   color: #6278f7;
+   font-size: 18px;
+   line-height: 22px;
+}
