@@ -9,7 +9,7 @@ function Form(props) {
    const [name, setName] = useState("");
    const [job, setJob] = useState("");
    const [image, setImage] = useState("");
-   const [team, setTeam] = useState("Programação");
+   const [team, setTeam] = useState("Programador");
 
    function handleFormSubmit(ev) {
       ev.preventDefault();

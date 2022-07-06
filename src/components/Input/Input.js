@@ -11,7 +11,7 @@ function Input(props) {
          <label name={props.label}>{props.label}</label>
          <input
             required={props.required}
-            placeholder={`Digite seu ${props.label}`}
+            placeholder={props.placeholder}
             name={props.label}
             value={props.inputValue}
             onChange={handleChange}
